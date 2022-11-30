@@ -1,0 +1,4 @@
+import dbm
+db1 = dbm.open("captions", "c")
+t = type(db1)
+print(t)
